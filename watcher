@@ -1,0 +1,7 @@
+#!/bin/env node
+
+var watcher = require('./lib/watcher');
+
+var settings = require('./settings.json');
+
+watcher.watch(settings);

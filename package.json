@@ -1,0 +1,11 @@
+{
+  "name": "statsd-mysql-watcher",
+  "description": "Pipe stats from mysql to statsd",
+  "version": "0.1.0",
+  "author": "Justin Carmony <justin@justincarmony.com>",
+  "dependencies": {
+    "statsd-client": ">=0.0.15",
+    "mysql": ">=2.3.1",
+    "lodash": "^2.4.1"
+  }
+}
