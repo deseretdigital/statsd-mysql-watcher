@@ -1,7 +1,10 @@
 #!/bin/env node
+var argv = require('minimist')(process.argv.slice(2));
+
+var configFile = argv.config || './settings.json';
 
 var watcher = require('./lib/watcher');
 
-var settings = require('./settings.json');
+var settings = require(configFile);
 
 watcher.watch(settings);

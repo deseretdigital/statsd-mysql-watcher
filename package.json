@@ -6,6 +6,7 @@
   "dependencies": {
     "statsd-client": ">=0.0.15",
     "mysql": ">=2.3.1",
-    "lodash": "^2.4.1"
+    "lodash": "^2.4.1",
+    "minimist": "^0.1.0"
   }
 }
