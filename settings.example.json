@@ -1,0 +1,14 @@
+{
+    "watcher": {
+        "pollInterval": 1000
+    },
+    "mysql": {
+        "host": "127.0.0.1",
+        "user": "watcher",
+        "password": "watcherpass"
+    },
+    "statsd": {
+        "host": "graphite-host.example.com",
+        "prefix": "example.prefix"
+    }
+}
